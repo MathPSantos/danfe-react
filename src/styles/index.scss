@@ -1,0 +1,193 @@
+$border: 1px solid;
+
+.danfe-header-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.danfe-header-info {
+  margin: 10px 0;
+}
+
+@media print {
+  .danfe-container {
+    page-break-after: always;
+    .mini { font-size: 8px; }  
+    .small { font-size: 10px; }  
+    .medium { font-size: 12px; }
+  }
+}
+
+.danfe-container {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  
+  .center { text-align: center; }
+
+  .bold { font-weight: bold; }
+
+  .flex { display: flex; }
+
+  .around { justify-content: space-around; }
+
+  .cell {
+    border-right: $border;
+    border-bottom: $border;
+    padding: 2px;
+    line-height: 1.3;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .danfe-header {
+    border-top: $border;
+    border-left: $border;
+    .header-row1 {
+      > :nth-child(1) { width: 35%; }
+      > :nth-child(2) { width: 20%; }
+      > :nth-child(3) { width: 45%; }
+    }
+    .header-row2 {
+      > :nth-child(1) { width: 55%; }
+      > :nth-child(2) { width: 45%; }
+    }
+    .header-row3 {
+      > div { width: 33.33%; }
+    }
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+
+  .type-nf {
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 1px;
+    padding: 3px;
+  }
+
+  .subheader {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .recipient {
+    border-top: $border;
+    border-left: $border;
+    .rec-row1 {
+      > :nth-child(1) { width: 70%; }
+      > :nth-child(2) { width: 15%; }
+      > :nth-child(3) { width: 15%; }
+    }
+    .rec-row2 {
+      > :nth-child(1) { width: 50%; }
+      > :nth-child(2) { width: 20%; }
+      > :nth-child(3) { width: 15%; }
+      > :nth-child(4) { width: 15%; }
+    }
+    .rec-row3 {
+      > :nth-child(1) { width: 50%; }
+      > :nth-child(2) { width: 5%; }
+      > :nth-child(3) { width: 15%; }
+      > :nth-child(4) { width: 15%; }
+      > :nth-child(5) { width: 15%; }
+    }
+  }
+
+  .tax-calc {
+    border-top: $border;
+    border-left: $border;
+    .tax-row {
+      > :nth-child(1) { width: 17%; }
+      > :nth-child(2) { width: 12%; }
+      > :nth-child(3) { width: 15%; }
+      > :nth-child(4) { width: 12%; }
+      > :nth-child(5) { width: 15%; }
+      > :nth-child(6) { width: 11%; }
+      > :nth-child(7) { width: 18%; }
+      .cell-value {
+        text-align: right;
+      }
+    }
+  }
+
+  .carrier {
+    border-top: $border;
+    border-left: $border;
+    .carrier-row1 {
+      > :nth-child(1) { width: 41%; }
+      > :nth-child(2) { width: 14%; }
+      > :nth-child(3) { width: 11%; }
+      > :nth-child(4) { width: 12%; }
+      > :nth-child(5) { width: 4%; }
+      > :nth-child(6) { width: 18%; }
+    }
+    .carrier-row2 {
+      > :nth-child(1) { width: 55%; }
+      > :nth-child(2) { width: 23%; }
+      > :nth-child(3) { width: 4%; }
+      > :nth-child(4) { width: 18%; }
+    }
+    .carrier-row3 {
+      > :nth-child(1) { width: 10%; }
+      > :nth-child(2) { width: 20%; }
+      > :nth-child(3) { width: 25%; }
+      > :nth-child(4) { width: 15%; }
+      > :nth-child(5) { width: 15%; }
+      > :nth-child(6) { width: 15%; }
+    }
+  }
+
+  table {
+    width: 100%;
+    border: $border;
+    border-collapse: collapse;
+
+    thead tr td {
+      font-size: 8px;
+    }
+    
+    tr, td {      
+      border: $border;
+    }
+    
+    tbody {
+      font-size: 12px;
+    }
+  }
+
+  .table-prod-header {
+    > :nth-child(1) { width: 6% }
+    > :nth-child(2) { width: 61% }
+    > :nth-child(3) { width: 3% }
+    > :nth-child(4) { width: 3% }
+    > :nth-child(5) { width: 3% }
+    > :nth-child(6) { width: 3% }
+    > :nth-child(7) { width: 3% }
+    > :nth-child(8) { width: 3% }
+    > :nth-child(9) { width: 5% }
+    > :nth-child(10) { width: 3% }
+    > :nth-child(11) { width: 3% }
+    > :nth-child(12) { width: 3% }
+    > :nth-child(13) { width: 1% }
+    // > :nth-child(14) { width: 3% }
+  }
+
+  .additional-data {
+    border-top: $border;
+    border-left: $border;
+    > div {
+      > :nth-child(1) { width: 80%; min-height: 100px; }
+      > :nth-child(2) { width: 20% }
+    }
+  }
+}

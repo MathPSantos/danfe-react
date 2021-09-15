@@ -1,0 +1,224 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<nfeProc
+	xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+	<NFe
+		xmlns="http://www.portalfiscal.inf.br/nfe">
+		<infNFe versao="4.00" Id="NFe32210733132456000164550010000000171394210982">
+			<ide>
+				<cUF>32</cUF>
+				<cNF>39421098</cNF>
+				<natOp>VENDAS ECOMMERCE</natOp>
+				<mod>55</mod>
+				<serie>1</serie>
+				<nNF>17</nNF>
+				<dhEmi>2021-07-22T17:19:54-03:00</dhEmi>
+				<dhSaiEnt>2021-07-22T17:19:54-03:00</dhSaiEnt>
+				<tpNF>1</tpNF>
+				<idDest>2</idDest>
+				<cMunFG>3205002</cMunFG>
+				<tpImp>1</tpImp>
+				<tpEmis>1</tpEmis>
+				<cDV>2</cDV>
+				<tpAmb>1</tpAmb>
+				<finNFe>1</finNFe>
+				<indFinal>1</indFinal>
+				<indPres>2</indPres>
+				<indIntermed>0</indIntermed>
+				<procEmi>0</procEmi>
+				<verProc>Dynamicca_1160302</verProc>
+			</ide>
+			<emit>
+				<CNPJ>33132456000164</CNPJ>
+				<xNome>ECOM EXPRESS VESTUARIO LTDA</xNome>
+				<xFant>ECOM EXPRESS</xFant>
+				<enderEmit>
+					<xLgr>AVENIDA SETECENTOS</xLgr>
+					<nro>SN</nro>
+					<xCpl>QUADRA 12 MODULO 56</xCpl>
+					<xBairro>CARAPINA</xBairro>
+					<cMun>3205002</cMun>
+					<xMun>SERRA</xMun>
+					<UF>ES</UF>
+					<CEP>29161414</CEP>
+					<cPais>1058</cPais>
+					<xPais>BRASIL</xPais>
+					<fone>1133570250</fone>
+				</enderEmit>
+				<IE>083739033</IE>
+				<CRT>3</CRT>
+			</emit>
+			<dest>
+				<CPF>07791198940</CPF>
+				<xNome>Cicero Ronchi</xNome>
+				<enderDest>
+					<xLgr>Rua Duarte Schutel</xLgr>
+					<nro>50</nro>
+					<xCpl>apto 908</xCpl>
+					<xBairro>Centro</xBairro>
+					<cMun>4205407</cMun>
+					<xMun>FlorianOpolis</xMun>
+					<UF>SC</UF>
+					<CEP>88015640</CEP>
+					<cPais>1058</cPais>
+					<xPais>BRASIL</xPais>
+					<fone>4891110918</fone>
+				</enderDest>
+				<indIEDest>9</indIEDest>
+				<email>cicerocr@gmail.com</email>
+			</dest>
+			<det nItem="1">
+				<prod>
+					<cProd>HFBL03000302.00P</cProd>
+					<cEAN>7909427437617</cEAN>
+					<xProd>CANGURU ESP FC HUF TYPE</xProd>
+					<NCM>61012000</NCM>
+					<CFOP>6108</CFOP>
+					<uCom>PC</uCom>
+					<qCom>1.0000</qCom>
+					<vUnCom>349.9900000000</vUnCom>
+					<vProd>349.99</vProd>
+					<cEANTrib>7909427437617</cEANTrib>
+					<uTrib>PC</uTrib>
+					<qTrib>1.0000</qTrib>
+					<vUnTrib>349.9900000000</vUnTrib>
+					<indTot>1</indTot>
+				</prod>
+				<imposto>
+					<vTotTrib>141.61</vTotTrib>
+					<ICMS>
+						<ICMS00>
+							<orig>0</orig>
+							<CST>00</CST>
+							<modBC>3</modBC>
+							<vBC>349.99</vBC>
+							<pICMS>12.0000</pICMS>
+							<vICMS>42.00</vICMS>
+						</ICMS00>
+					</ICMS>
+					<IPI>
+						<cEnq>999</cEnq>
+						<IPINT>
+							<CST>53</CST>
+						</IPINT>
+					</IPI>
+					<PIS>
+						<PISAliq>
+							<CST>01</CST>
+							<vBC>349.99</vBC>
+							<pPIS>0.6500</pPIS>
+							<vPIS>2.27</vPIS>
+						</PISAliq>
+					</PIS>
+					<COFINS>
+						<COFINSAliq>
+							<CST>01</CST>
+							<vBC>349.99</vBC>
+							<pCOFINS>3.0000</pCOFINS>
+							<vCOFINS>10.50</vCOFINS>
+						</COFINSAliq>
+					</COFINS>
+					<ICMSUFDest>
+						<vBCUFDest>349.99</vBCUFDest>
+						<vBCFCPUFDest>0.00</vBCFCPUFDest>
+						<pFCPUFDest>0.0000</pFCPUFDest>
+						<pICMSUFDest>17.0000</pICMSUFDest>
+						<pICMSInter>12.00</pICMSInter>
+						<pICMSInterPart>100.0000</pICMSInterPart>
+						<vFCPUFDest>0.00</vFCPUFDest>
+						<vICMSUFDest>17.50</vICMSUFDest>
+						<vICMSUFRemet>0.00</vICMSUFRemet>
+					</ICMSUFDest>
+				</imposto>
+			</det>
+			<total>
+				<ICMSTot>
+					<vBC>349.99</vBC>
+					<vICMS>42.00</vICMS>
+					<vICMSDeson>0.00</vICMSDeson>
+					<vFCPUFDest>0.00</vFCPUFDest>
+					<vICMSUFDest>17.50</vICMSUFDest>
+					<vICMSUFRemet>0.00</vICMSUFRemet>
+					<vFCP>0.00</vFCP>
+					<vBCST>0.00</vBCST>
+					<vST>0.00</vST>
+					<vFCPST>0.00</vFCPST>
+					<vFCPSTRet>0.00</vFCPSTRet>
+					<vProd>349.99</vProd>
+					<vFrete>0.00</vFrete>
+					<vSeg>0.00</vSeg>
+					<vDesc>0.00</vDesc>
+					<vII>0.00</vII>
+					<vIPI>0.00</vIPI>
+					<vIPIDevol>0.00</vIPIDevol>
+					<vPIS>2.27</vPIS>
+					<vCOFINS>10.50</vCOFINS>
+					<vOutro>0.00</vOutro>
+					<vNF>349.99</vNF>
+					<vTotTrib>141.61</vTotTrib>
+				</ICMSTot>
+			</total>
+			<transp>
+				<modFrete>0</modFrete>
+				<transporta>
+					<CNPJ>73939449000193</CNPJ>
+					<xNome>TEX COURIER LTDA  EM RECUPERACAO JUDICIAL</xNome>
+					<xEnder>AV PIRACEMA, 155</xEnder>
+					<xMun>BARUERI</xMun>
+					<UF>SP</UF>
+				</transporta>
+				<vol>
+					<qVol>1</qVol>
+					<esp>CAIXA</esp>
+				</vol>
+			</transp>
+			<pag>
+				<detPag>
+					<tPag>03</tPag>
+					<vPag>349.99</vPag>
+					<card>
+						<tpIntegra>1</tpIntegra>
+						<tBand>99</tBand>
+						<cAut>500019</cAut>
+					</card>
+				</detPag>
+			</pag>
+			<infAdic>
+				<infCpl>TRIB. APROX. R$ 82.11 FEDERAL E 59.50 ESTADUAL E 0.00 MUNICIPAL FONTE: IBPT/EMPRESOMETRO.COM.BR 11AEAD PEDIDO ECOMMERCE 114863147357001                                                                                    .</infCpl>
+			</infAdic>
+		</infNFe>
+		<Signature
+			xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<SignedInfo>
+				<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+				<Reference URI="#NFe32210733132456000164550010000000171394210982">
+					<Transforms>
+						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+						<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+					</Transforms>
+					<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+					<DigestValue>zpbTvXxFS3h2GZZXU7lcp0A7M4s=</DigestValue>
+				</Reference>
+			</SignedInfo>
+			<SignatureValue>TaDyyVRL92PLSlnmgLw1b2mR5srJ5IPcANqKDVofy9kjaL+mTEt4VHC3KTizeYvZw70ZJTjHV90aNafucy5lDNjypjTiOrdkGZvq9MYTZq1RqrRblYFo4yLO/bR80kZInYW0UK0mRJjB+jqAkVZhcnhb0k0jsRQEc58K2XI4ujSBPOTZ7Bn1C0EEjoQ6LT3uLZw0wRcRZlpGyFAyon3a7qQSV/EwEBtNIv27u/caGhqiAkULq30AsufAqVJVizA9kGRdtyrvkAQHXHLmb9A9xZvOKB+Z7o14C+j4oJfn2/igyObK/4YwZoTDfRLsbz8MXekpBkQABQF0j3ANFcToCg==</SignatureValue>
+			<KeyInfo>
+				<X509Data>
+					<X509Certificate>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</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</Signature>
+	</NFe>
+	<protNFe versao="4.00"
+		xmlns="http://www.portalfiscal.inf.br/nfe">
+		<infProt>
+			<tpAmb>1</tpAmb>
+			<verAplic>SVRS202103291658</verAplic>
+			<chNFe>32210733132456000164550010000000171394210982</chNFe>
+			<dhRecbto>2021-07-22T19:42:53-03:00</dhRecbto>
+			<nProt>332210048135063</nProt>
+			<digVal>zpbTvXxFS3h2GZZXU7lcp0A7M4s=</digVal>
+			<cStat>100</cStat>
+			<xMotivo>Autorizado o uso da NF-e</xMotivo>
+		</infProt>
+	</protNFe>
+</nfeProc>
